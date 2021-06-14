@@ -1,0 +1,30 @@
+html {
+}
+
+.xHolder {
+	padding-top: 0.4rem;
+	color: #ef5753;
+	font-size: 2rem;
+	transition-duration: 0.5s;
+	margin-left: 0.5rem;
+}
+
+.xHolder i:hover {
+	transition-duration: 0.5s;
+	color: red;
+	transform: rotate(90deg);
+	font-size: 2.5rem;
+	cursor: pointer;
+}
+
+.vHolder {
+	padding-top: 0.4rem;
+}
+
+.vHolder i:hover {
+	transform: scale(1.5);
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
